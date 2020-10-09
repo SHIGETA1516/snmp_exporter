@@ -1,0 +1,32 @@
+2020-09-17 15:25:07 [INF] main.go:92 | Listening on :9091
+2020-09-17 15:25:07 [INF] main.go:93 | :9091
+2020-09-17 15:25:07 [INF] main.go:68 | Create a cron manager
+2020-09-17 15:25:22 [ERR] collector.go:111 | Get() 192.168.37.128 err: request timeout (after 0 retries)
+2020-09-17 15:25:42 [ERR] collector.go:111 | Get() 192.168.37.128 err: request timeout (after 0 retries)
+2020-09-17 15:26:02 [ERR] collector.go:111 | Get() 192.168.37.128 err: request timeout (after 0 retries)
+2020-09-17 15:26:22 [ERR] collector.go:111 | Get() 192.168.37.128 err: request timeout (after 0 retries)
+2020-09-17 15:26:28 [INF] main.go:92 | Listening on :9091
+2020-09-17 15:26:28 [INF] main.go:93 | :9091
+2020-09-17 15:26:28 [INF] main.go:68 | Create a cron manager
+2020-09-17 15:29:42 [INF] main.go:94 | Listening on :9091
+2020-09-17 15:29:42 [INF] main.go:95 | :9091
+2020-09-17 15:29:42 [INF] main.go:70 | Create a cron manager
+2020-09-17 15:32:21 [INF] main.go:94 | Listening on :9091
+2020-09-17 15:32:21 [INF] main.go:95 | :9091
+2020-09-17 15:32:21 [INF] main.go:70 | Create a cron manager
+2020-09-17 15:33:29 [INF] main.go:94 | Listening on :9091
+2020-09-17 15:33:29 [INF] main.go:95 | :9091
+2020-09-17 15:33:29 [INF] main.go:70 | Create a cron manager
+2020-09-17 15:37:24 [INF] main.go:92 | Listening on :9091
+2020-09-17 15:37:24 [INF] main.go:93 | :9091
+2020-09-17 15:37:24 [INF] main.go:68 | Create a cron manager
+2020-09-17 17:24:00 [INF] main.go:92 | Listening on :9091
+2020-09-17 17:24:00 [INF] main.go:93 | :9091
+2020-09-17 17:24:00 [INF] main.go:68 | Create a cron manager
+2020-09-17 17:24:25 [ERR] collector.go:114 | Get() 192.168.18.128 err: request timeout (after 0 retries)
+2020-09-17 17:24:45 [ERR] collector.go:114 | Get() 192.168.18.128 err: request timeout (after 0 retries)
+2020-09-17 17:24:53 [INF] main.go:92 | Listening on :9091
+2020-09-17 17:24:53 [INF] main.go:93 | :9091
+2020-09-17 17:24:53 [INF] main.go:68 | Create a cron manager
+2020-09-17 17:25:05 [ERR] collector.go:116 | Get() 192.168.18.128 err: request timeout (after 0 retries)
+2020-09-17 17:25:25 [ERR] collector.go:116 | Get() 192.168.18.128 err: request timeout (after 0 retries)

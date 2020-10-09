@@ -1,0 +1,126 @@
+global:
+  address: :9091
+  interval: 20
+  timeout: 10
+  oidtimeout: 5
+  Oidretries: 3
+
+targets:
+  # lcp address
+  - host: 172.24.3.5
+    port: 161
+    oids:
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.14"
+        metricname: "tempout-1"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.16"
+        metricname: "tempout-2"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.18"
+        metricname: "tempout-3"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.23"
+        metricname: "water-in"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.25"
+        metricname: "water-flow"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.30"
+        metricname: "door-open"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.5"
+        metricname: "fan1"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.7"
+        metricname: "fan2"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.9"
+        metricname: "fan3"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.2"
+        metricname: "cool-capibility"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.26"
+        metricname: "fan-total"
+  - host: 172.24.3.6
+    port: 161
+    oids:
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.14"
+        metricname: "tempout-1"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.16"
+        metricname: "tempout-2"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.18"
+        metricname: "tempout-3"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.23"
+        metricname: "water-in"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.25"
+        metricname: "water-flow"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.30"
+        metricname: "door-open"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.5"
+        metricname: "fan1"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.7"
+        metricname: "fan2"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.9"
+        metricname: "fan3"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.2"
+        metricname: "cool-capibility"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.26"
+        metricname: "fan-total"
+  - host: 172.24.3.7
+    port: 161
+    oids:
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.14"
+        metricname: "tempout-1"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.16"
+        metricname: "tempout-2"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.18"
+        metricname: "tempout-3"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.23"
+        metricname: "water-in"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.25"
+        metricname: "water-flow"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.30"
+        metricname: "door-open"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.5"
+        metricname: "fan1"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.7"
+        metricname: "fan2"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.9"
+        metricname: "fan3"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.2"
+        metricname: "cool-capibility"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.26"
+        metricname: "fan-total"
+  - host: 172.24.3.9
+    port: 161
+    oids:
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.14"
+        metricname: "tempout-1"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.16"
+        metricname: "tempout-2"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.18"
+        metricname: "tempout-3"
+      - oid: "1.3.6.1.4.1.2606.4.2.4.5.2.1.5.23"
+        metricname: "water-in"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.25"
+        metricname: "water-flow"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.30"
+        metricname: "door-open"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.5"
+        metricname: "fan1"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.7"
+        metricname: "fan2"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.9"
+        metricname: "fan3"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.2"
+        metricname: "cool-capibility"
+      - oid: ".1.3.6.1.4.1.2606.4.2.4.5.2.1.5.26"
+        metricname: "fan-total"
+
+  # Cooler
+  - host: 172.24.3.4
+    port: 161
+    oids:
+      - oid: ".1.3.6.1.4.1.2606.2.1.2.70.0"
+        metricname: "out-temp"
+      - oid: ".1.3.6.1.4.1.2606.2.1.2.71.0"
+        metricname: "in-temp"
+      - oid: ".1.3.6.1.4.1.2606.2.1.2.81.0"
+        metricname: "amb-temp"
+      - oid: ".1.3.6.1.4.1.2606.2.1.2.80.0"
+        metricname: "Pump-suction"
+      - oid: ".1.3.6.1.4.1.2606.2.1.2.106.0"
+        metricname: "Pump1-on"
+      - oid: ".1.3.6.1.4.1.2606.2.1.2.107.0"
+        metricname: "Pump2-on"
